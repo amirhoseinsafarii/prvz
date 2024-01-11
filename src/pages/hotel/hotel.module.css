@@ -1,0 +1,17 @@
+.himg {
+  margin-top: 100px;
+}
+
+.himg img {
+  display: block;
+}
+
+.himg:after {
+  position: absolute;
+  content: "";
+  height: 798px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #efefef 0%, rgba(242, 242, 242, 0) 75%);
+}

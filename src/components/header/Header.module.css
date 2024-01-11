@@ -1,0 +1,59 @@
+.mainHeader {
+  width: 100%;
+  padding: 22px 0;
+  background-color: #f4f4f4;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+  z-index: 99;
+  position: relative;
+}
+.mainHeader div:global(.container) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainHeader * {
+  font-size: 18px;
+  color: #434343;
+}
+.mainHeader .right {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+.right .logoBtn {
+  background-color: #7dd3ea;
+  font-weight: 900;
+  border-radius: 16px;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Aria-ultraBold";
+}
+
+.right .logoBtn::after {
+  content: url("../../assets//icons//logoBtnIcon.svg");
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+.right .logoBtn::before {
+  content: url("../../assets//icons//logoBtnLine.svg");
+  position: absolute;
+  top: -5px;
+  right: -40px;
+}
+
+.mainHeader .left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 36px;
+}
+
+.mainHeader .left a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+  display: flex;
+  top: 200px;
+  right: 20%;
+}
+
+.text {
+  position: absolute;
+  top: 50px;
+  right: 20%;
+}
+
+.carimgc {
+  margin-top: 300px;
+  padding-right: 20%;
+}
+
+.carscardimgc {
+  margin-top: 600px;
+}

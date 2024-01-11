@@ -1,0 +1,65 @@
+.animatedelement1 {
+  width: 500px;
+  height: 100px;
+  right: 0;
+  position: absolute;
+  border-radius: "20px";
+  background-color: #7dd3ea;
+  margin-block: "5px";
+
+  animation: slideIn 1s ease-in-out; /* Animation name, duration, and easing */
+}
+
+.animatedelement2 {
+  width: "500px";
+  border-radius: "20px";
+  background-color: #7dd3ea;
+
+  margin-block: "5px";
+
+  right: 0;
+  animation: slideIn 2s ease-in-out; /* Animation name, duration, and easing */
+}
+
+.animatedelement3 {
+  width: "500px";
+  border-radius: "20px";
+  background-color: antiquewhite;
+  margin-block: "5px";
+  right: 0;
+  animation: slideIn 3s ease-in-out; /* Animation name, duration, and easing */
+}
+
+.animatedelement4 {
+  width: "500px";
+  border-radius: "20px";
+  background-color: antiquewhite;
+  margin-block: "5px";
+  right: 0;
+  animation: slideIn 4s ease-in-out; /* Animation name, duration, and easing */
+}
+
+.animatedelement5 {
+  width: 500px !important;
+  border-radius: "20px";
+  background-color: antiquewhite;
+  margin-block: "5px";
+
+  top: 50;
+  padding-inline: "400px";
+  right: 0;
+  animation: slideIn 5s ease-in-out; /* Animation name, duration, and easing */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(
+      100%
+    ); /* Starting position: 100% outside the viewport on the right */
+  }
+  to {
+    transform: translateX(
+      60%
+    ); /* Ending position: 0, fully inside the viewport */
+  }
+}
