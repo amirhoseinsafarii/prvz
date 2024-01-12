@@ -1,10 +1,28 @@
 .container {
-  position: absolute;
   display: flex;
   top: 200px;
+  text-align: center;
+  padding-right: 150px;
+
+  width: 100%;
+
   right: 20%;
 }
 
+.ff {
+  z-index: 2;
+}
+
+.ll {
+  z-index: 1;
+}
+.bgc {
+  background: #887dd5;
+  height: 100px;
+  position: relative;
+
+  filter: blur(436.5751953125px);
+}
 .text {
   position: absolute;
   top: 50px;
@@ -17,5 +35,14 @@
 }
 
 .carscardimgc {
-  margin-top: 600px;
+  margin-top: 130px;
+}
+
+.carscard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 20px;
+  margin-right: 270px;
+  margin-top: 100px;
 }

@@ -11,3 +11,9 @@
   padding: 14px;
   font-size: 18px;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    opacity: 0;
+  }
+}

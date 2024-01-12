@@ -18,8 +18,7 @@ const Map = ({}) => {
   });
 
   const blueIcon = new LeafIcon({
-    iconUrl:
-      "https://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|abcdef&chf=a,s,ee00FFFF",
+    iconUrl: "./icons8-map-50.png",
   });
   const [icon, setIcon] = useState(blueIcon);
   const [show, setShow] = useState(false);

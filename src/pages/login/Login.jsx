@@ -72,7 +72,9 @@ const Login = () => {
           <h1 className={styles.login_heading}>ورود</h1>
           <div>
             <span className={styles.login_text1}>حساب کاربری ندارید؟</span>
-            <a className={styles.login_link}>حساب بسازید</a>
+            <a className={styles.login_link} href="/signup">
+              حساب بسازید
+            </a>
           </div>
           <div className={styles.login_input_box}>
             <label className={styles.login_label}>ایمیل</label>

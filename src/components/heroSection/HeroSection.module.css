@@ -1,6 +1,3 @@
-* {
-}
-
 .heroSec {
   z-index: -1;
   height: 750px;
@@ -141,4 +138,8 @@
   width: 323.818px;
   height: 78px;
   margin-right: 30%;
+}
+
+.map {
+  margin-block: 70px;
 }

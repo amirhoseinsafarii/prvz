@@ -1,0 +1,49 @@
+.container {
+  width: 100%;
+  height: 401px;
+  flex-shrink: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.fl1 {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.fl2 {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.item1 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+}
+
+.item2 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.logoBtn {
+  background-color: #7dd3ea;
+  font-weight: 900;
+  border-radius: 16px;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Aria-ultraBold";
+}

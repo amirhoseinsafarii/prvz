@@ -10,15 +10,17 @@ const Header = () => {
     <header className={styles.mainHeader}>
       <div className="container">
         <div className={styles.right}>
-          <button className={styles.logoBtn}>همسفر</button>
+          <a href="/">
+            <button className={styles.logoBtn}>همسفر</button>
+          </a>
           <Navbar />
         </div>
         <div className={styles.left}>
-          <a href="#">
+          <a href="/">
             <img src={BriefIcon} alt="briefcase icon" />
             <span>سفر های من</span>
           </a>
-          <a href="#">
+          <a href="/login">
             <img src={userIcon} alt="user icon" />
             <span>ورود یا ثیت نام</span>
           </a>

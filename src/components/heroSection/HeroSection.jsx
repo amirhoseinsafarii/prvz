@@ -6,6 +6,9 @@ import FilterNav from "../filterNav/FilterNav";
 import img1 from "../../assets/images/alisadr-hamedan 1(1).svg";
 import img2 from "../../assets/images/Stephen-Gregory-Church 1.svg";
 import Cards from "../offreCards/Cards";
+import fimg from "../../assets/images/foote1.svg";
+import Footer from "../footer/Footer";
+
 const HeroSection = () => {
   return (
     <>
@@ -85,7 +88,11 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      {/* <Map /> */}
+      <div className={styles.map}>
+        <Map />
+      </div>
+      <img src={fimg} />
+      <Footer />
     </>
   );
 };

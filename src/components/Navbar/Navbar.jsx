@@ -4,19 +4,16 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <a href="#">جاذبه های توریستی</a>
+          <a href="hotel-page">جاذبه های توریستی</a>
         </li>
         <li>
-          <a href="#">اقامت</a>
+          <a href="/residence">اقامت</a>
         </li>
         <li>
-          <a href="#">حمل و نقل</a>
+          <a href="/car-list">حمل و نقل</a>
         </li>
         <li>
-          <a href="#">تور های گردشگری</a>
-        </li>
-        <li>
-          <a href="#">سوغات همدان</a>
+          <a href="/tour-page">تور های گردشگری</a>
         </li>
       </ul>
     </nav>

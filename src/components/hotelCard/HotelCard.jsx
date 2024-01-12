@@ -47,7 +47,7 @@ function HotelCard() {
         </div>
       </div>
 
-      <button>رزرو</button>
+      <button className="btn">رزرو</button>
     </div>
   );
 }

@@ -1,0 +1,32 @@
+.conainer {
+  border-radius: 15px;
+  background: #e1e1e1;
+  box-shadow: 0px 4px 4px 0px rgba(154, 154, 154, 0.25);
+  width: 599px;
+  height: 230px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 200px;
+  padding: 15px;
+  padding-right: 60px;
+}
+
+.p1 {
+  color: #000;
+  text-align: justify;
+  font-family: Aria;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 15px;
+  background: #fff;
+  width: 363px;
+  height: 53px;
+  padding: 10px;
+}
+
+.btn {
+  margin-top: 50px;
+  cursor: pointer;
+}
